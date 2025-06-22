@@ -7,7 +7,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
 export default function Footer() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+971586017706"
+    const phoneNumber = "+971586017709"
     const message = "Hello! I'd like to discuss a construction project."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
@@ -59,14 +59,14 @@ export default function Footer() {
               <ul className="space-y-3 text-base text-gray-400">
                 <li>
                   <button onClick={handleWhatsAppClick} className="hover:text-white transition-colors cursor-pointer text-left">
-                    +971 586017706
+                    +971 586017709
                   </button>
                 </li>
                 <li>
-                  <a href="mailto:info@qusooralwadi.com" className="hover:text-white transition-colors">info@qusooralwadi.com</a>
+                  <a href="mailto:info@qusooralwadi.com" className="hover:text-white transition-colors">qusooralwadi@gmail.com</a>
                 </li>
                 <li className="leading-snug">
-                  Qusoor Al Wadi Contracting<br />Fujairah, UAE
+                  Qusoor Al Wadi Contracting<br/>Sharjah,Fujairah, UAE
                 </li>
               </ul>
             </div>

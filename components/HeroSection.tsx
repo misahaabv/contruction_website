@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function HeroSection() {
   const handleStartProject = () => {
-    const phoneNumber = "+971586017706"
+    const phoneNumber = "+971586017709"
     const message = "Hello! I'd like to start a construction project. Can you help me?"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")

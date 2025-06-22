@@ -10,7 +10,7 @@ import { Phone, Mail, MapPin } from "lucide-react"
 export default function ContactSection() {
   const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault()
-    const phoneNumber = "+971586017706"
+    const phoneNumber = "+971586017709"
     const message = "Hello! I'd like to discuss a construction project."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
@@ -75,11 +75,11 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold text-gray-800">Phone</h4>
                     <a
-                      href={`https://wa.me/971586017706`}
+                      href={`https://wa.me/971586017709`}
                       onClick={handleWhatsAppClick}
                       className="text-gray-600 hover:text-[#2596be]"
                     >
-                      +971 586017706
+                      +971 586017709
                     </a>
                   </div>
                 </div>
@@ -87,8 +87,8 @@ export default function ContactSection() {
                   <Mail className="h-6 w-6 text-[#2596be] mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Email</h4>
-                    <a href="mailto:info@qusooralwadi.com" className="text-gray-600 hover:text-[#2596be]">
-                      info@qusooralwadi.com
+                    <a href="mailto: qusooralwadi@gmail.com" className="text-gray-600 hover:text-[#2596be]">
+                    qusooralwadi@gmail.com
                     </a>
                   </div>
                 </div>

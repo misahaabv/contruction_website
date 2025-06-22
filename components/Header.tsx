@@ -18,7 +18,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const handleGetQuote = () => {
-    const phoneNumber = "+971 586017706"
+    const phoneNumber = "+971586017709"
     const message = "Hello! I'm interested in getting a quote for a construction project."
     const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\s/g, '')}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
