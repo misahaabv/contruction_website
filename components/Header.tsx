@@ -7,11 +7,11 @@ import Link from "next/link"
 import { useState } from "react"
 
 const navigationItems = [
-  { href: "#home", label: "Home", icon: Home },
-  { href: "#services", label: "Services", icon: Wrench },
-  { href: "#about", label: "About Us", icon: Building },
-  { href: "#projects", label: "Projects", icon: FolderOpen },
-  { href: "#contact", label: "Contact Us", icon: Phone },
+  { href: "/", label: "Home", icon: Home },
+  { href: "/#services", label: "Services", icon: Wrench },
+  { href: "/#about", label: "About Us", icon: Building },
+  { href: "/projects", label: "Projects", icon: FolderOpen },
+  { href: "/#contact", label: "Contact Us", icon: Phone },
 ]
 
 export default function Header() {

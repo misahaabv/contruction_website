@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function HeroSection() {
   const handleStartProject = () => {
@@ -42,13 +43,15 @@ export default function HeroSection() {
                 Start Your Project
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-black hover:bg-white hover:text-[#2596be] font-bold px-8 py-6"
-              >
-                View Our Work
-              </Button>
+              <Link href="/projects" passHref legacyBehavior>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white text-black hover:bg-white hover:text-[#2596be] font-bold px-8 py-6"
+                >
+                  View Our Work
+                </Button>
+              </Link>
             </div>
           </div>
 
